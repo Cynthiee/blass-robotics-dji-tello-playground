@@ -1,0 +1,7 @@
+av==12.3.0
+djitellopy==2.5.0
+DroneBlocksTelloSimulator==0.0.8
+numpy==2.1.0
+opencv-python==4.10.0.84
+paho-mqtt==2.0.0
+pillow==10.4.0
