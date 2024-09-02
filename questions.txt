@@ -1,6 +1,4 @@
 Task1
-When developing a curriculum for students learning this code, it’s important to focus on both understanding the core concepts and applying them practically. Here are some questions I’d consider asking:
-
 ### **Understanding the Code Structure**
 1. **What is the purpose of the `DroneBlocksSimulatorContextManager` in the code?**
    - Objective: To ensure students understand the use of context managers in Python, particularly in managing resources.
@@ -43,8 +41,6 @@ When developing a curriculum for students learning this code, it’s important t
 
 
 Task2
-When developing a curriculum for students learning this modular code, I’d focus on ensuring they understand the key concepts of modularity, code organization, and practical application. Here are some questions to ask:
-
 ### **Understanding Modularity**
 1. **What is the benefit of breaking down the drone control code into smaller functions?**
    - Objective: To help students understand the importance of modularity in improving code readability, maintainability, and reusability.
@@ -97,7 +93,6 @@ When developing a curriculum for students learning this modular code, I’d focu
 
 
 Task3
-When developing a curriculum for students learning this code, I would focus on questions that assess their understanding of modularity, control flow, and the practical applications of drone programming. Here are some questions to ask:
 
 ### **Understanding Modularity**
 1. **What is the purpose of the `perform_takeoff()` and `perform_landing()` functions in the code? Why are these operations separated into their own functions?**
@@ -150,8 +145,6 @@ When developing a curriculum for students learning this code, I would focus on q
     - Objective: To challenge students to think about scalability and adaptability in their code, preparing them to handle more complex systems.
 
 Task4
-When developing a curriculum around this modular drone control code, I'd focus on questions that test students' understanding of modularity, time management, and drone control concepts. Here are some key questions to include:
-
 ### **Understanding Modularity**
 1. **What is the purpose of modularizing the drone control code into separate functions like `perform_takeoff()` and `perform_curve_flight()`?**
    - Objective: To ensure students understand the benefits of breaking code into small, reusable, and manageable functions.
