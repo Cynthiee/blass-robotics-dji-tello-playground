@@ -1,7 +1,9 @@
 import time
 from DroneBlocksTelloSimulator.DroneBlocksSimulatorContextManager import DroneBlocksSimulatorContextManager
 
-sim_key = '3161934b-eb8a-423b-b6be-13c1022f1494'
+def read_sim_key_file(filepath):
+    with open(filepath, 'r') as file:
+        return file.readline().strip()
 
 def perform_takeoff(drone):
     """Handles the drone takeoff."""

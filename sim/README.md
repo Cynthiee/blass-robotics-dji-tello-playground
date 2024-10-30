@@ -17,3 +17,16 @@ python -m pip install -r sim_requirements.txt
 
 ### GET SIMULATOR KEY
 ![image info](./Pictures/Simulator_Key.png)
+
+Make sure to replace the sim_key with the actual value obtained from your web browser.
+
+
+### RUN THE SCRIPTS
+```bash
+python task1_sim_good.py
+```
+
+### DEACTIVATE
+```bash
+deactivate
+```
