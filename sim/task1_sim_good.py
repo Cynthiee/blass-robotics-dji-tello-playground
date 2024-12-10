@@ -3,6 +3,12 @@ from DroneBlocksTelloSimulator.DroneBlocksSimulatorContextManager import DroneBl
 
 sim_key = '47e59214-306e-4c6a-abed-bcf5f3572345'
 
+
+def read_sim_key_file(filepath):
+    with open(filepath, 'r') as file:
+        return file.readline().strip()
+
+
 def perform_takeoff(drone):
     """Handles the drone takeoff."""
     drone.takeoff()
@@ -26,4 +32,5 @@ def main(sim_key):
         perform_landing(drone)
 
 if __name__ == '__main__':
+    sim_key = read_sim_key_file("sim_key.txt")
     main(sim_key)
