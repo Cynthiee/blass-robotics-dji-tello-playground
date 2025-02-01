@@ -14,6 +14,8 @@ if __name__ == '__main__':
 
     x1, y1, z1 = 0, 0, 0  # Starting position (x1, y1, z1)
     x2, y2, z2 = 5, 5, 0  # Ending position (x2, y2, z2)
+
+    
     speed = 15  # Speed in cm/s
 
     # Check if the arc radius is within the acceptable range

@@ -18,6 +18,6 @@ if __name__ == '__main__':
     elapsed_time = end_time - start_time  # Calculate the elapsed time
 
     print(f"Time elapsed: {elapsed_time} seconds")
-    print(f"Flight Time {drone.query_flight_time()}")
+    # print(f"Flight Time {drone.query_flight_time()}")
 
-    #drone.land()
+    drone.land()

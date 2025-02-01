@@ -13,20 +13,19 @@ drone.streamoff()
 drone.streamon()
 
 
+img = drone.get_frame_read().frame
+img = cv2.resize(img, (640, 480))
+
+# cv2.imshow("Image", img)
+cv2.imwrite("Selfie.jpg", img)
+
+
 while True:
-
-    img = drone.get_frame_read().frame
-    img = cv2.resize(img, (640, 480))
-
-    cv2.imshow("Image", img)
-    cv2.imwrite("Selfie.jpg", img)
-    
     hover_time = 20
     time.sleep(hover_time)
 
     print("_______________________")
     print("------------------------")
-
     if cv2.waitKey(5) & 0xFF == ord('q'):
         drone.streamoff()
         break
